@@ -1,0 +1,82 @@
+/* CV en format A4 */
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: black;
+}
+
+/* abstract - Styles pour les en-têtes */
+.nom {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.recherche {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* heading - Styles pour les sous-titres */
+h2 {
+  background-color: #fff647;
+  font-family: "Ubuntu", sans-serif;
+  width: max-content;
+}
+
+/* layout - Styles pour la mise en page générale */
+p,
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+  font-size: medium;
+  list-style-type: none;
+}
+
+li::before {
+  content: ">"; /* Utilisation de li::before pour ajouter un chevron avant chaque élément de liste */
+}
+
+.contact {
+  text-align: center;
+}
+
+/* layout - Styles pour les images et le contenu général */
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+}
+
+/* layout - Styles pour des sections spécifiques avec mise en page */
+.objectif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+.expériences {
+  float: left;
+  flex-direction: column;
+  margin: 3%;
+  width: 50%;
+}
+
+.droite {
+  float: right;
+  flex-direction: column;
+  margin: 3%;
+  width: 50%;
+}
